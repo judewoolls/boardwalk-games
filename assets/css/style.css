@@ -6,11 +6,25 @@
 
 /* *** */
 
-body {
-    font-family: "Inter", sans-serif;
-    background-color: lightcoral;
+/* CSS variables */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #416a8e; /* blue */
+    --secondary-color: #aa9581;
+    --highlight-color: #416a8e;
+    --light-highlight-color: #7a9fc2;
 }
 
-h1 {
-    font-family: "Macondo", serif;
+body {
+    font-family: var(--primary-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
 }
