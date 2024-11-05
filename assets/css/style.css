@@ -10,10 +10,10 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #416a8e; /* blue */
-    --secondary-color: #aa9581;
-    --highlight-color: #416a8e;
-    --light-highlight-color: #7a9fc2;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --light-highlight-color: #7a9fc2; /* light blue */
 }
 
 body {
@@ -24,6 +24,19 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
+
+/* navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 40px;
+}
+
+
+
+
 
 /* grid visuals for testing */
 /* .sub-heading-color {
