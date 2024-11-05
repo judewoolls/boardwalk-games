@@ -68,6 +68,11 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+#fav-games, #new-games {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 /* media queries */
 
 /* for tablets, 768 and up */
