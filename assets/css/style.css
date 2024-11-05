@@ -68,7 +68,35 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* media queries */
 
+/* for tablets, 768 and up */
+@media screen and (min-width: 768px) {
+    /* this is used to make all the services cards the same height and align */
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+/* for small devices 992px and up */
+@media screen and (min-width: 992px) {
+    /* this is used to make all the services cards the same height and align */
+    #services .card-body {
+        min-height: auto;
+    }
+}
+@media screen and (min-width: 1200px) {
+    /* this is used to make all the services cards the same height and align */
+    #services .card-body {
+        min-height: 218px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    /* this is used to make all the services cards the same height and align */
+    #services .card-body {
+        min-height: 224px;
+    }
+}
 
 /* grid visuals for testing */
 /* .sub-heading-color {
