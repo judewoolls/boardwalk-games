@@ -68,9 +68,16 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+
+/* games library page */
+
 #fav-games, #new-games {
     margin-left: 2em;
     margin-right: 2em;
+}
+
+#fav-games .card, #new-games .card {
+    border: none;
 }
 
 /* media queries */
