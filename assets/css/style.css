@@ -23,7 +23,23 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+/* header */
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
 
 /* navbar */
 #navbar {
