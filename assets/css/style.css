@@ -25,7 +25,8 @@ h1, h2, h3 {
     color: var(--primary-color);
 }
 
-.sub-heading-color {
+/* grid visuals for testing */
+/* .sub-heading-color {
     color: var(--highlight-color);
 }
 
@@ -37,4 +38,4 @@ h1, h2, h3 {
 .col-6 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
