@@ -80,6 +80,42 @@ h2 {
     border: none;
 }
 
+/* footer / contact */
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--light-highlight-color);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+#contact a {
+    text-decoration: none;
+}
+
+#contact .social-links i {
+    color: var(--light-highlight-color);
+    font-size: 1.9rem;
+    transition: color 0.3 ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+    font-size: 1.9rem;
+}
+
+
 /* media queries */
 
 /* for tablets, 768 and up */
